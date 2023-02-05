@@ -1,11 +1,9 @@
 local options = {
-	wrap = false,
-	tabstop = 2,
 	shiftwidth = 2,
+	tabstop = 2,
+	wrap = false,
 	cursorline = true,
-	signcolumn = "yes",
-	encoding = "UTF-8",
-	guifont = "Hack Nerd Font",
+	autowrite = true
 }
 
 

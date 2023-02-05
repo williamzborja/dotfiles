@@ -19,3 +19,4 @@ fpath+=${ZDOTDIR:-~}/.zsh_functions
 # starship prompt configu
 eval "$(starship init zsh)"
 
+neofetch
