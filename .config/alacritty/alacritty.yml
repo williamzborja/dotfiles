@@ -1,0 +1,9 @@
+font:
+  size: 14
+
+  normal:
+    family: Hack Nerd Font
+    style: Regular
+
+window:
+  opacity: 0.8

@@ -12,8 +12,10 @@ source $ZSH/oh-my-zsh.sh
 export MANPATH="/usr/local/man:$MANPATH"
 export EDITOR='nvim'
 
-#Aliases
-. ~/.aliases
+. ~/.aliases # add aliases
 export PATH="$PATH:$HOME/.local/bin"
 # Rust completitions
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+# starship prompt configu
+eval "$(starship init zsh)"
+

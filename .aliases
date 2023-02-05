@@ -1,2 +1,3 @@
+#!/bin/bash
 alias dotfiles="cd ~/develop/dotfiles"
-
+alias willy="echo willy wonka"
