@@ -1,9 +1,9 @@
-shell:
-  program: /bin/zsh
-  args:
-    - -l
-    - -c
-    - "tmux attach || tmux"
+#shell:
+#  program: /bin/zsh
+#  args:
+#    - -l
+#    - -c
+#    - "tmux attach || tmux"
 font:
   size: 14
 
@@ -18,7 +18,7 @@ font:
     style: Italic
 
 window:
-  opacity: 0.8
+  opacity: 0.9
   
   dimensions:
     columns: 120

@@ -1,9 +1,3 @@
-local catppuccin = {"catppuccin/nvim", as = "catppuccin",
-		flavour = "macchiato",
-		lazy = false, -- make sure we load this during startup if it is your main colorscheme
-		config = function() vim.cmd.colorscheme "catppuccin" end,
-}
-
 local markdown_preview = {
 	'ellisonleao/glow.nvim',
 	'simrat39/symbols-outline.nvim',
@@ -26,9 +20,7 @@ local lsp = {
 }
 
 return {
-	catppuccin,
-	'nvim-telescope/telescope.nvim',
 	'folke/todo-comments.nvim', --todo comments
+  'tpope/vim-surround',
 	markdown_preview,
-	{"nvim-treesitter/nvim-treesitter", build = ":TSUpdate"},
 }

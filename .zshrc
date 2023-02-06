@@ -20,3 +20,6 @@ fpath+=${ZDOTDIR:-~}/.zsh_functions
 eval "$(starship init zsh)"
 
 neofetch
+
+
+export LIBGL_ALWAYS_SOFTWARE=true
