@@ -1,7 +1,8 @@
 #!/bin/bash
 alias dotfiles="cd ~/develop/dotfiles"
-alias dwm_folder="cd ~/develop/dwm"
-alias dwm_update="dwm_folder && ./scripts/update.sh"
+alias dwm-folder="cd ~/develop/dwm"
+alias dwm-update="dwm-folder && ./scripts/update.sh"
+alias dwm-config="nvim ~/develop/dwm/config.h" 
 alias willy="figlet willy wonka"
 alias nvim_config="cd ~/.config/nvim"
 
