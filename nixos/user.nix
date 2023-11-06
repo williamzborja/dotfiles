@@ -9,6 +9,7 @@
       #terminal
       alacritty
       #web browser
+      chromium
       firefox
       #editor
       neovim
@@ -21,11 +22,12 @@
       lazygit
       ripgrep
       fd
-
       #============================
       #programming languages
       rustup
       nodejs
+      # password manager
+      _1password
     ];
   };
 

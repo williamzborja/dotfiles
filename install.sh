@@ -17,5 +17,4 @@ set_dotfile $HOME ".config/alacritty"
 #set_dotfile $HOME ".config/starship.toml"
 set_dotfile $HOME ".config/nvim"
 #set_dotfile $HOME ".config/kitty"
-
-#set_dotfile $HOME ".zshrc"
+set_dotfile $HOME ".zshrc"

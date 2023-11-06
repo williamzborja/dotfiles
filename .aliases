@@ -1,8 +1,11 @@
 #!/bin/bash
 alias dotfiles="cd ~/dev/dotfiles"
-alias dwm-folder="cd ~/dev/dwm"
-alias dwm-update="dwm-folder && ./scripts/update.sh"
-alias dwm-config="nvim ~/dev/dwm/config.h" 
+alias dwm-f="cd ~/dev/dwm"                      # dwm folder
+alias dwm-u="dwm-folder && ./scripts/update.sh" #dwm update
+alias dwm-c="nvim ~/dev/dwm/config.h"           # dwm config
 alias willy="figlet willy wonka"
 alias neo_config="cd ~/.config/nvim"
 
+## nix
+#
+alias nrb="sudo nixos-rebuild switch"
