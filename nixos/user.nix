@@ -14,21 +14,33 @@
       neovim
       #software dev
       gh
-      rustup
       #dwm
       st
       dmenu
+      xsel
+      lazygit
+      ripgrep
+      fd
 
+      #============================
+      #programming languages
+      rustup
+      nodejs
     ];
   };
 
+  fonts.fonts = with pkgs; [
+    nerdfonts
+  ];
+  programs = {
+     git = {
+      enable = true;
+      config = {
+        user.name  = "williamzborja";
+        user.email = "williamzborja@gmail.com";
+      };
+     };
 
-
-programs.git = {
-    enable = true;
-    config = {
-    user.name  = "williamzborja";
-    user.email = "williamzborja@gmail.com";
-    };
+     starship.enable = true;
   };
 }
