@@ -1,11 +1,20 @@
 #!/bin/bash
 alias dotfiles="cd ~/dev/dotfiles"
+alias willy="figlet willy wonka"
+alias neo_config="cd ~/.config/nvim"
+
+# dwm development
 alias dwm-f="cd ~/dev/dwm"                      # dwm folder
 alias dwm-u="dwm-folder && ./scripts/update.sh" #dwm update
 alias dwm-c="nvim ~/dev/dwm/config.h"           # dwm config
-alias willy="figlet willy wonka"
-alias neo_config="cd ~/.config/nvim"
 
 ## nix
 #
 alias nrb="sudo nixos-rebuild switch"
+
+# Git
+alias gs="git status"
+alias gcam="git commit --am"
+alias gc="git commit"
+
+# github cli

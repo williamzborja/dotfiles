@@ -18,10 +18,12 @@
       #dwm
       st
       dmenu
+      # cli tools
       xsel
       lazygit
       ripgrep
       fd
+      googler
       #============================
       #programming languages
       rustup
