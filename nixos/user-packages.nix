@@ -26,6 +26,8 @@
       #programming languages
       rustup
       nodejs
+      openjdk17
+      jetbrains.idea-ultimate
       # password manager
       _1password
   ];

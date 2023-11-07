@@ -18,7 +18,3 @@ set_dotfile $HOME ".config/alacritty"
 set_dotfile $HOME ".config/nvim"
 #set_dotfile $HOME ".config/kitty"
 set_dotfile $HOME ".zshrc"
-
-sudo cp /etc/nixos/hardware-configuration.nix ./nixos
-sudo rm -rf /etc/nixos
-sudo ln -s "$(pwd)/nixos" /etc/nixos
