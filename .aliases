@@ -1,5 +1,5 @@
 #!/bin/bash
-alias dotfiles="cd ~/dev/dotfiles"
+alias dotfiles="cd ~/dotfiles"
 alias willy="figlet willy wonka"
 alias neo_config="cd ~/.config/nvim"
 
@@ -11,12 +11,11 @@ alias dwm-c="nvim ~/dev/dwm/config.h"           # dwm config
 ## nix
 #
 alias nrb="sudo nixos-rebuild switch"
-
 # Git
 alias gs="git status"
-alias gcam="git commit --am"
-alias gc="git commit"
 alias ga="git add ."
+alias gca="ga && git commit --am"
+alias gc="git commit"
 
 # github cli
 

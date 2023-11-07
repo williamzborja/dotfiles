@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # remove and set
 function set_dotfile() {
 	local DST=$1
@@ -18,3 +17,5 @@ set_dotfile $HOME ".config/alacritty"
 set_dotfile $HOME ".config/nvim"
 #set_dotfile $HOME ".config/kitty"
 set_dotfile $HOME ".zshrc"
+set_dotfile $HOME ".nixpkgs"
+
