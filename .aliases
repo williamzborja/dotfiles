@@ -16,6 +16,7 @@ alias nrb="sudo nixos-rebuild switch"
 alias gs="git status"
 alias gcam="git commit --am"
 alias gc="git commit"
+alias ga="git add ."
 
 # github cli
 
