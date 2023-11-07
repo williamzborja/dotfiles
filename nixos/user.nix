@@ -24,6 +24,7 @@
       ripgrep
       fd
       googler
+      zoxide
       #============================
       #programming languages
       rustup
@@ -44,7 +45,6 @@
         user.email = "williamzborja@gmail.com";
       };
      };
-
      starship.enable = true;
   };
 }
