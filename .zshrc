@@ -11,3 +11,5 @@ export PATH="$PATH:$HOME/.local/bin"
 # Rust completitions
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
+
+. "$HOME/.nix-profile/etc/profile.d/hm-session-vars.sh"

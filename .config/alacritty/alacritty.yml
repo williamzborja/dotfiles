@@ -6,10 +6,10 @@ font:
     family: RobotoMono Nerd Font
     style: Regular
   bold:
-    family: Hack Nerd Font
+    family: RobotoMono Nerd Font
     style: Bold
   italic:
-    family: Hack Nerd Font
+    family: RobotoMono Nerd Font
     style: Italic
 window:
   option_as_alt: OnlyLeft 
