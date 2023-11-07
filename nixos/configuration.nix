@@ -10,9 +10,9 @@
       ./user.nix
       ./xserver.nix
       ./system_packages.nix
+      ./user-packages.nix
       ./services.nix
     ];
-
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
@@ -26,10 +26,8 @@
 
   # Enable networking
   networking.networkmanager.enable = true;
-
   # Set your time zone.
   time.timeZone = "America/Bogota";
-
   # Select internationalisation properties.
   i18n.defaultLocale = "en_US.UTF-8";
 
@@ -45,7 +43,6 @@
     LC_TIME = "es_CO.UTF-8";
   };
 
-    # Define a user account. Don't forget to set a password with ‘passwd’.
     # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
   # Some programs need SUID wrappers, can be configured further or are
@@ -55,11 +52,6 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-
-  # List services that you want to enable:
-
-  # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ ... ];
@@ -74,5 +66,4 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.05"; # Did you read the comment?
-
 }
