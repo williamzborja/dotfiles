@@ -25,6 +25,7 @@
       fd
       googler
       zoxide
+      tre-command
       #============================
       #programming languages
       rustup
@@ -34,13 +35,9 @@
     ];
   };
 
-fonts.fonts = with pkgs; [
+  fonts.fonts = with pkgs; [
     (nerdfonts.override { fonts = ["FiraCode" "Hack"]; })
-
-];
-#  fonts.fonts = with pkgs; [
- #   nerdfonts.override = {fonts = ["FiraCode"];}
-#  ];
+  ];
   programs = {
      git = {
       enable = true;

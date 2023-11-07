@@ -11,13 +11,13 @@ function set_dotfile() {
 
 CONFIG="$HOME/.config"
 
+mkdir -p $CONFIG
+
 set_dotfile $HOME ".aliases"
 set_dotfile $HOME ".config/alacritty"
 set_dotfile $HOME ".config/nvim"
 #set_dotfile $HOME ".config/kitty"
 set_dotfile $HOME ".zshrc"
-
-#sudo fd -e nix . /etc/nixos -E hardware-configuration.nix -X rm
 
 sudo cp /etc/nixos/hardware-configuration.nix ./nixos
 sudo rm -rf /etc/nixos
