@@ -34,9 +34,13 @@
     ];
   };
 
-  fonts.fonts = with pkgs; [
-    nerdfonts.override = {fonts = ["FiraCode"];}
-  ];
+fonts.fonts = with pkgs; [
+    (nerdfonts.override { fonts = ["FiraCode" "Hack"]; })
+
+];
+#  fonts.fonts = with pkgs; [
+ #   nerdfonts.override = {fonts = ["FiraCode"];}
+#  ];
   programs = {
      git = {
       enable = true;

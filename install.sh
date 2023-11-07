@@ -18,6 +18,7 @@ set_dotfile $HOME ".config/nvim"
 set_dotfile $HOME ".zshrc"
 
 #sudo fd -e nix . /etc/nixos -E hardware-configuration.nix -X rm
-#sudo ln -s $(pwd)/nixos/*.nix /etc/nixos
 
-sudo ln -s $(pwd)/nixos/*.nix /etc/nixos
+sudo cp /etc/nixos/hardware-configuration.nix ./nixos
+sudo rm -rf /etc/nixos
+sudo ln -s "$(pwd)/nixos" /etc/nixos
