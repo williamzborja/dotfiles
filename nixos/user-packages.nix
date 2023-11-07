@@ -22,18 +22,18 @@
       googler
       zoxide
       tre-command
+      figlet
       #============================
       #programming languages
       rustup
       nodejs
       openjdk17
-      jetbrains.idea-ultimate
       # password manager
       _1password
   ];
 
   fonts.fonts = with pkgs; [
-    (nerdfonts.override { fonts = ["FiraCode" "Hack"]; })
+    (nerdfonts.override { fonts = ["FiraCode" "Hack" "DroidSansMono" "JetBrainsMono" "RobotoMono"]; })
   ];
   programs = {
      git = {
