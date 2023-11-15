@@ -103,3 +103,19 @@ source $ZSH/oh-my-zsh.sh
 eval "$(starship init zsh)"
 
 . ~/.aliases
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+# bun completions
+[ -s "/Users/william/.bun/_bun" ] && source "/Users/william/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+export OPEN_API_KEY="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"

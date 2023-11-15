@@ -1,3 +1,5 @@
+DEV_DIR=~/Developer
+
 #!/bin/bash
 alias dotfiles="cd ~/dotfiles"
 alias willy="figlet willy wonka"
@@ -8,16 +10,25 @@ alias dwm-f="cd ~/dev/dwm"                      # dwm folder
 alias dwm-u="dwm-folder && ./scripts/update.sh" #dwm update
 alias dwm-c="nvim ~/dev/dwm/config.h"           # dwm config
 
+#llion development
+alias llion="cd $DEV_DIR/llion"
+
 ## nix
 #
 alias nrb="sudo nixos-rebuild switch"
 # Git
 alias gs="git status"
 alias ga="git add ."
-alias gca="ga && git commit --am"
-alias gc="git commit"
+alias gc="git commit --m "
+alias gac="ga && git commit --m"
 
 # github cli
 
 # neovim
 alias nv="nvim"
+
+#mac
+alias dv="cd $DEV_DIR/"
+alias oss="dv && cd oss"
+
+# tre
