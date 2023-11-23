@@ -20,7 +20,7 @@ alias nrb="sudo nixos-rebuild switch"
 alias gs="git status"
 alias ga="git add ."
 alias gc="git commit --m "
-alias gac="ga && git commit --m"
+alias gac="ga && git commit m"
 
 # github cli
 
