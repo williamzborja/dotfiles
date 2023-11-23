@@ -118,4 +118,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-export OPEN_API_KEY="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"
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+
+export PATH="$HOME/.cargo/bin:$PATH"
