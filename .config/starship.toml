@@ -6,18 +6,9 @@ right_format = """$time"""
 [character] 
 success_symbol = '[➜](bold green)' 
 
-
 [directory]
 home_symbol = " "
-
 
 [time]
 disabled = false
 format = '[🕙](red) [$time]($style) '
-[os]
-type = "Arch"
-name = "Arch"
-disabled = true 
-
-[os.symbols]
-Arch = "  "

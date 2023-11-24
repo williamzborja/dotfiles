@@ -18,4 +18,4 @@ set_dotfile $HOME ".config/nvim"
 #set_dotfile $HOME ".config/kitty"
 set_dotfile $HOME ".zshrc"
 set_dotfile $HOME ".nixpkgs"
-
+set_dotfile $HOME ".config/starship.toml"
