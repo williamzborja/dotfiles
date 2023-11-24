@@ -1,5 +1,5 @@
-#shell:
-#  program: "/usr/bin/env zsh"
+shell:
+  program: "/usr/bin/zsh"
 font:
   size: 18
   normal:
@@ -13,7 +13,7 @@ font:
     style: Italic
 window:
   option_as_alt: Both
-  opacity: 0.97
+  opacity: 0.98
   
   dimensions:
     columns: 120

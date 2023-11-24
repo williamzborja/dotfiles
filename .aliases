@@ -13,6 +13,8 @@ alias dwm-c="nvim ~/dev/dwm/config.h"           # dwm config
 #llion development
 alias llion="cd $DEV_DIR/llion"
 
+alias learn="cd $DEV_DIR/learn"
+
 ## nix
 #
 alias nrb="sudo nixos-rebuild switch"
@@ -20,7 +22,7 @@ alias nrb="sudo nixos-rebuild switch"
 alias gs="git status"
 alias ga="git add ."
 alias gc="git commit --m "
-alias gac="ga && git commit m"
+alias gac="git add . && git commit"
 
 # github cli
 
