@@ -14,16 +14,17 @@ names = [
 	"libXft-devel",
 	"libX11-devel",
 	"libXinerama-devel",
+  "picom",
 	"duf",
   "bat",
   "ripgrep",
-  "gh"
+  "gh",
+  "tmux",
+  "fd-find"
 ]
 
 [cargo_install]
 names = [
-	"zoxide",
-	"fd-find",
 	"exa",
 	"starship",
 	"rm-improved",
@@ -35,3 +36,13 @@ names = [
 [git]
 name='williamzborja'
 email='williamzborja@mail.com'
+
+
+[[shell_package]]
+name="zoxide"
+url="https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh"
+
+[[shell_package]]
+name="ohmyzsh"
+url="https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh"
+

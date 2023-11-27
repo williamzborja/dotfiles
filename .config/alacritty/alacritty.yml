@@ -1,16 +1,17 @@
 shell:
   program: "/usr/bin/zsh"
 font:
-  size: 16
+  size: 14
   normal:
-    family: Monaspace Neon 
-      #family: RobotoMono Nerd Font 
+    #family: Monaspice Ar Nerd Font Propo
+    family: RobotoMono Nerd Font 
     style: Regular
   bold:
-    family: Monaspace Neon
+    family: RobotoMono Nerd Font 
     style: Bold
   italic:
-    family: Monaspace Neon
+    #family: Monaspace Kr Nerd Font Propo
+    family: RobotoMono Nerd Font
     style: Italic
 window:
   option_as_alt: Both
