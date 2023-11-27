@@ -10,23 +10,27 @@ names = [
 	"cmake",
 	"tldr",
 	"thefuck",
-	#"lazygit",
-	#"lazydocker",
-	"httpie"
+	"httpie",
+	"libXft-devel",
+	"libX11-devel",
+	"libXinerama-devel",
+	"duf",
+  "bat",
+  "ripgrep"
 ]
 
 [cargo_install]
 names = [
 	"zoxide",
 	"fd-find",
-	"duf",
-	"ripgrep",
-	"bat",
 	"exa",
 	"starship",
 	"rm-improved",
 	"sd",
 	"procs",
 	"bandwhich",
-	"macchina"
 ]
+
+[git]
+name='williamzborja'
+email='williamzborja@mail.com'
