@@ -16,7 +16,8 @@ names = [
 	"libXinerama-devel",
 	"duf",
   "bat",
-  "ripgrep"
+  "ripgrep",
+  "gh"
 ]
 
 [cargo_install]
