@@ -3,15 +3,16 @@ shell:
 font:
   size: 14
   normal:
-    #family: Monaspice Ar Nerd Font Propo
-    family: RobotoMono Nerd Font 
+    family: Monaspice Ne Nerd Font Propo
+      #family: RobotoMono Nerd Font 
     style: Regular
   bold:
-    family: RobotoMono Nerd Font 
+    family: Monaspice Ne Nerd Font Propo
+      #family: RobotoMono Nerd Font 
     style: Bold
   italic:
-    #family: Monaspace Kr Nerd Font Propo
-    family: RobotoMono Nerd Font
+    family: Monaspice Ne Nerd Font 
+    #family: RobotoMono Nerd Font
     style: Italic
 window:
   option_as_alt: Both

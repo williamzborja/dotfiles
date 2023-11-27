@@ -5,7 +5,6 @@ function set_dotfile() {
 	local FILE_NAME=$2
 	sudo rm -rf "$DST/$FILE_NAME"
 	ln -s "$(pwd)/$FILE_NAME" "$DST/$FILE_NAME"
-	#	source "$DST/$FILE_NAME"
 }
 
 CONFIG="$HOME/.config"
@@ -18,5 +17,9 @@ set_dotfile $HOME ".config/devo"
 set_dotfile $HOME ".config/nvim"
 #set_dotfile $HOME ".config/kitty"
 set_dotfile $HOME ".zshrc"
+
 set_dotfile $HOME ".nixpkgs"
 set_dotfile $HOME ".config/starship.toml"
+
+source "$HOME/.zshrc"
+

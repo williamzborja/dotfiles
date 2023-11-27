@@ -11,22 +11,29 @@ names = [
 	"tldr",
 	"thefuck",
 	"httpie",
-	"libXft-devel",
-	"libX11-devel",
-	"libXinerama-devel",
-  "picom",
 	"duf",
   "bat",
   "ripgrep",
   "gh",
   "tmux",
-  "fd-find"
+  "fd-find",
+#  --- RWM
+  "xorg-x11-server-Xwayland",
+  "xorg-x11-server-common",
+	"libXft-devel",
+	"libX11-devel",
+	"libXinerama-devel",
+  "xorg-x11-xinit",
+  "libXi",
+  "picom",
+  "feh",
+  "clang-tools-extra", #clangd
+  "rofi"
 ]
 
 [cargo_install]
 names = [
 	"exa",
-	"starship",
 	"rm-improved",
 	"sd",
 	"procs",
@@ -37,7 +44,6 @@ names = [
 name='williamzborja'
 email='williamzborja@mail.com'
 
-
 [[shell_package]]
 name="zoxide"
 url="https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh"
@@ -46,3 +52,6 @@ url="https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh"
 name="ohmyzsh"
 url="https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh"
 
+[[shell_package]]
+name="starship"
+url="https://starship.rs/install.sh"
