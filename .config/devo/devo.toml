@@ -1,3 +1,9 @@
+
+[[shell_package]]
+name="rust"
+url="https://sh.rustup.rs"
+
+
 [packages]
 names = [
 	"neovim",
