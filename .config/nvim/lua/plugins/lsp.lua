@@ -52,7 +52,6 @@ return {
     local lsp = require 'lspconfig'
 
     lsp.clangd.setup{}
-    lsp.rust_analyzer.setup{}
     lsp.lua_ls.setup {
       on_init = function(client)
         local path = client.workspace_folders[1].name
