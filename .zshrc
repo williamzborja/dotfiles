@@ -3,8 +3,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -81,3 +79,7 @@ export LANG=en_US.UTF-8
 export _JAVA_AWT_WM_NONREPARENTING=1
 export PATH="$HOME/.cargo/bin:$PATH"
 eval "$(starship init zsh)"
+
+export PATH="$PATH:$HOME/.local/bin"
+
+eval "$(zoxide init zsh)"
