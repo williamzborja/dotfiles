@@ -3,7 +3,12 @@ DEV_DIR=~/Developer
 #!/bin/bash
 alias dotfiles="cd ~/dotfiles"
 alias willy="figlet willy wonka"
+
+# Neovim
+alias neo_clean="rm -rf .config/nvim/ ~/.local/state/nvim ~/.cache/nvim"
 alias neo_config="cd ~/.config/nvim"
+
+alias vi="nvim"
 
 # dwm development
 alias dwm-f="cd ~/dev/dwm"                      # dwm folder

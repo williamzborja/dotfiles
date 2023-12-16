@@ -72,14 +72,10 @@ export LANG=en_US.UTF-8
    export EDITOR='nvim'
  fi
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
 . ~/.aliases
 
-export _JAVA_AWT_WM_NONREPARENTING=1
 export PATH="$HOME/.cargo/bin:$PATH"
 eval "$(starship init zsh)"
-
 export PATH="$PATH:$HOME/.local/bin"
 
 eval "$(zoxide init zsh)"
