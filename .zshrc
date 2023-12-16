@@ -75,7 +75,7 @@ export LANG=en_US.UTF-8
 . ~/.aliases
 
 export PATH="$HOME/.cargo/bin:$PATH"
-eval "$(starship init zsh)"
 export PATH="$PATH:$HOME/.local/bin"
 
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
